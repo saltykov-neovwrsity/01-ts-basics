@@ -1,0 +1,29 @@
+# Залежності
+node_modules/
+
+# Збірка та кеш інструментів
+/dist/
+*.tsbuildinfo
+.eslintcache
+.prettiercache
+
+# Логи
+*.log
+
+# Локальні змінні середовища та налаштування
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Особисті налаштування редакторів; спільні налаштування VS Code зберігаємо
+/.vscode/*
+!/.vscode/settings.json
+!/.vscode/extensions.json
+.idea/
+
+# Службові файли операційних систем
+.DS_Store
+Thumbs.db
+Desktop.ini
